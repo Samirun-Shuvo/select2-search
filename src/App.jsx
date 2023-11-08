@@ -17,7 +17,8 @@ function App() {
       });
   }, []);
   return (
-    <div className="w-72 font-medium h-80">
+    <div className="bg-[#2f2929] h-[100vh]">
+      <div className="w-72 font-medium h-80">
       <div
         onClick={() => setOpen(!open)}
         className={`bg-white w-full p-2 flex items-center justify-between rounded ${
@@ -71,6 +72,7 @@ function App() {
           </li>
         ))}
       </ul>
+    </div>
     </div>
   );
 }
